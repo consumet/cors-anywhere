@@ -40,7 +40,7 @@ Request examples:
 
 Live examples:
 
-* https://cors-anywhere.herokuapp.com/
+* https://cors.proxy.consumet.org/http://google.com/
 * https://robwu.nl/cors-anywhere.html - This demo shows how to use the API.
 
 ## Documentation
