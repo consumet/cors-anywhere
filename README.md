@@ -57,7 +57,7 @@ If you want to automatically enable cross-domain requests when needed, use the f
 
 ```javascript
 (function() {
-    var cors_api_host = 'cors-anywhere.herokuapp.com';
+    var cors_api_host = 'cors.proxy.consumet.org';
     var cors_api_url = 'https://' + cors_api_host + '/';
     var slice = [].slice;
     var origin = window.location.protocol + '//' + window.location.host;
@@ -79,7 +79,7 @@ If you're using jQuery, you can also use the following code **instead of** the p
 ```javascript
 jQuery.ajaxPrefilter(function(options) {
     if (options.crossDomain && jQuery.support.cors) {
-        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+        options.url = 'https://cors.proxy.consumet.org/' + options.url;
     }
 });
 ```
